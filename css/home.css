@@ -1,0 +1,92 @@
+.container-gray{
+    position: relative;
+    left: 290px;
+    width: 70%;
+    height: 445px;
+    background-color: #eee;
+
+}.titulo{
+    font-family: Verdana;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: baseline;
+    padding-top: 30px; 
+}
+.paragraph {
+    font-family: Verdana;
+    text-indent: 50px;
+    text-align: center;
+    padding-right: 110px;
+    color: #666;
+
+}
+.container-ventajas{
+    width: 30%;
+    padding-top: 50px;
+}
+
+.container-ventajas span {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.ventaja1{
+    position: relative;
+    left: 40px;
+    text-align: center;
+}
+.ventaja2{
+    position: relative;
+    left: 470px;
+    bottom: 140px;
+    text-align: center;
+}
+.ventaja3{
+    position: relative;
+    left: 880px;
+    bottom: 245px;
+    text-align: center;
+}
+.ventaja1 p, .ventaja2 p, .ventaja3 p{
+    color: #666;
+}
+.titular-inspirate{
+    position: relative;
+    left: 300px;
+    width: 70%;
+    color:#666;
+    height: 1px;
+    text-align: center
+}
+.line1 {
+    width: 70%;
+    height: 1px;
+    color: #eee;
+    padding-top:10px;
+}
+.doted-separate {
+    position:relative; 
+    left: 330px;
+    top:100px;
+
+}
+.select {
+    position: relative;
+    font-family: Verdana;
+    font-size: 20px;
+    left: 780px;
+    top: 72px;
+    color:#666;
+}
+.container-pictures{
+    position: relative;
+    top:50px;
+    left: 300px;
+}
+.pic {
+    position: relative;
+    top: 40px;
+    width:325px;
+    border-radius: 2%;
+    padding: 2px;
+}
