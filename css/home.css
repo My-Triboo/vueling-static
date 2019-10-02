@@ -3,17 +3,24 @@
     background-color: #eee;
     justify-content: center;
     max-width: 50%;
-    padding-left: 2em;
-    margin-left: 30em;
+    padding: 2em;
+    margin-left: 28em;
 }
 
-
+.titular-teinteresa {
+    display:flex;
+    align-items: center;
+    width: 86%;
+    margin-left: 7em;
+}
 
 .titular-inspirate {
     display:flex;
     align-items: center;
-
+    width: 86%;
+    margin-left: 7em;
 }
+
 .linea_gris{
     width: 45em;
     height: 4px;
@@ -21,10 +28,38 @@
 }
 .titular{
     padding-right: 15px;
+    font-size: 2em;
+    width: 230px;
+    padding: 0px 10px 0px 10px;
+    color: #666;
 }
 .titular-inspirate img{
     padding: 0px 15px;
 }
 .titulo{
     text-align: center;
+}
+.linea{
+width: 45em;
+height: 4px;
+background-color: #eee;
+}
+.container-select{
+    text-align: center;
+    width: 86%;
+    margin: 0em 0em 2em 5em;
+    color: #666;
+    font-size: 2em;
+    
+}
+.titular-teinteresa img{
+    padding-left: 1em;
+}
+.container-imagenes{
+display: flex;
+    padding-left: 6em;
+}
+.puntitos{
+display: flex;
+padding-left: 18em;
 }
