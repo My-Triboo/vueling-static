@@ -16,6 +16,7 @@
 }
 .pic{
     border-radius: 15px;
+    width: 22%;
 }
 
 .titular-inspirate {
@@ -65,9 +66,10 @@ background-color: #eee;
 }
 
 .puntitos{
-display: flex;
-padding-left: 18em;
+    display: flex;
+    justify-content: center;
 }
+
 .container-tres-imagenes-teinteresa{
     display: flex;
     justify-content: center;
