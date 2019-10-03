@@ -78,3 +78,257 @@ background-color: #eee;
     display: flex;
     text-align: center;
 }
+.title {
+    width: 100%;
+    color: #666;
+    font-size: 22px;
+    padding-top: 60px;
+    padding-left: 510px;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10;
+}
+.searcher {
+    background-image: url(../img/background_home4.jpg);
+    height: 300px;
+}
+.option_master {
+    height: 24px; 
+}
+.option_tab {
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    list-style: none;
+    background: rgb(255, 204, 0);
+    cursor: pointer;
+}
+.option2_tab {
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    list-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1.2;
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    color: #333;
+}
+.tab_master {
+    width: 1200px;   
+}
+.vuelos {
+    display: inline-block;  
+}
+.car {
+    padding-top: 4px;
+}
+.holiday {
+    padding-top: 4px;
+}
+.check {
+    padding-top: 4px;
+}
+.book {
+    padding-top: 4px;
+}
+.vuelos::before {
+    content: url(../img/avion.png);
+}
+.hotel::before {
+    content: url(../img/hotel.png);
+}
+.car::before {
+    content: url(../img/coche.png);
+}
+.holiday::before {
+    content: url(../img/cocheyhotel.png);
+}
+.check::before {
+    content: url(../img/cheking.png);
+}
+.book::before {
+    content: url(../img/poleas.png);
+}
+li {
+    padding-left:12px;
+}
+.first_option {
+    float: left;
+}
+.option_tab {
+    float: left;
+    background: rgb(255, 204, 0);
+    height: 40px;
+}
+.tab_content {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    margin-left: 41px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    display: block;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    background-color: #fc0;
+}
+#search_form {
+    display:flex;
+    align-items: flex-end;
+}
+.form_input_label {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    vertical-align: baseline;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 1.1;
+    color: #999;
+    padding-bottom: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.form_control {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    display: table-cell;
+    font-family: "BrandonText-Regular",Calibri,Verdana;
+    width: 100%;
+    height: 22px;
+    color: #333;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+    position: inherit;
+    font-size: 16px;
+}
+.form_origin {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 8px 10px 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition-duration: 0s;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid #ddd;
+    width: 25%;
+}
+.form_destination {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 8px 10px 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition-duration: 0s;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    border-left: 1px solid #ddd;
+    width: 25%;
+}
+.form_date {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 8px 10px 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition-duration: 0s;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    border-left: 1px solid #ddd;
+    width: 25%;
+}
+.passangers {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: table;
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition-duration: 0s;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.button {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    transition: all .15s ease-in;
+    border: 2px solid #fc0;
+    font-weight: 600;
+    white-space: initial;
+    line-height: 1.3em;
+    color: #fff;
+    padding: 11px 35px;
+    border-radius: 50px;
+    position: relative;
+    font-family: "BrandonText-Regular",Calibri,Verdana !important;
+    padding-right: 43px;
+    width: 16%;
+    font-size: 18px;
+    min-height: 50px;
+    background-color: #666;
+    border-color: #666;
+}
+.form_fields_input {
+    color: #333;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    background: transparent;
+    width: 83%;
+}
