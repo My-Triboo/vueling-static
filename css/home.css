@@ -1,7 +1,20 @@
+.banner-publicidad{
+    display: flex;
+    justify-content: center;
+}
+.banner-publicidad img{
+    border-radius: 10px;
+    position: relative;
+    bottom: 10%;
+}
 .container-gray{
     background-color: #eee;
-    width: 65%;
-    padding: 4em;
+    width: 100%;
+    padding: 2em 18em 3em 21em;
+    font-size: 97%;
+    color: #666;
+    font-family: 'Raleway', sans-serif;
+    line-height: 150%;
 }
 .container-porque-reservar-vueling{
     display: flex;
@@ -9,10 +22,11 @@
 }
 
 .titular-teinteresa {
-    display:flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 92%;
-    margin-left: 7em;
+    width: 100%;
+
 }
 .pic{
     border-radius: 15px;
@@ -32,11 +46,11 @@
     background-color: #eee;
 }
 .titular{
-    padding-right: 15px;
-    font-size: 2em;
-    width: 256gitpx;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
     color: #666;
+    font-weight: bold;
+    font-size: x-large;
+    width: 200px;
 }
 .titular-inspirate img{
     padding: 0px 15px;
@@ -69,7 +83,9 @@ background-color: #eee;
     display: flex;
     justify-content: center;
 }
-
+.paragraph{
+    padding-bottom: 4%;
+}
 .container-tres-imagenes-teinteresa{
     display: flex;
     justify-content: center;
@@ -77,6 +93,17 @@ background-color: #eee;
 .container-ventajas{
     display: flex;
     text-align: center;
+    width: 70%;
+    padding: 0% 13%;
+}
+.container-ventajas span {
+    font-weight: bold;
+}
+select {
+    border: none;
+    background: none;
+    font-weight: bold;
+    font: inherit;
 }
 .title {
     width: 100%;
