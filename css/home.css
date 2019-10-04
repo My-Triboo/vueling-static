@@ -120,7 +120,9 @@ select {
 }
 .searcher {
     background-image: url(../img/background_home4.jpg);
+    background-repeat: no-repeat;
     height: 300px;
+    padding-bottom: 25px;
 }
 .option_master {
     height: 24px; 
@@ -149,9 +151,10 @@ select {
     font-size: 14px;
     position: relative;
     color: #333;
+    height: 33px;
 }
 .tab_master {
-    width: 1200px;   
+    width: 1200px;  
 }
 .vuelos {
     display: inline-block;  
@@ -164,9 +167,11 @@ select {
 }
 .check {
     padding-top: 4px;
+    height:33px;
 }
 .book {
     padding-top: 4px;
+    height: 37px;
 }
 .vuelos::before {
     content: url(../img/avion.png);
@@ -357,5 +362,5 @@ li {
     vertical-align: baseline;
     display: flex;
     background: transparent;
-    width: 83%;
+    width: 100%;
 }
