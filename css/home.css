@@ -359,3 +359,105 @@ li {
     background: transparent;
     width: 83%;
 }
+
+.cocheyhotel {
+    display: flex;
+    width: 100%;
+
+}
+.coche{
+    width: 50%;
+}
+
+
+.hotel {
+    width: 50%;
+}
+.hotel2 {
+    position: absolute;
+    
+    max-width: 50%;
+    
+}
+.vuelingclub {
+    float: left;
+
+}
+
+.coche3 {
+    padding-top: 44px;
+    padding-left: 170px;
+}
+.recuadro {
+    padding-left: 30px;
+    background-color: #eee;
+    padding-top:96px;
+    width: 120%;
+    height: 260px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+    
+}
+
+
+.container {
+    display: flex;
+    padding-top: 70px;
+}
+
+.grancanaria {
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.asturias {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.galicia {
+    padding-right: 30px;
+}
+
+.hotel3 {
+    padding-top: 35px;
+    padding-left: 170px;
+    position: relative;
+    top: 60px;
+    color: gray;
+    border-bottom-color: yellow;
+}
+.flex-grancanaria {
+    
+padding-left: right;
+}
+.alquiler {
+    position: absolute;
+    top: 20px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.reserva {
+    position: absolute;
+    top: 20px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.button {
+    cursor:pointer;
+    outline: 0;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all;
+    border: 2px solid #fc0;
+    background-color: #fc0;
+    font-weight: 600;
+    white-space: initial;
+    line-height: 1.3em;
+
+}
