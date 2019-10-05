@@ -1,13 +1,15 @@
-.banner-publicidad{
+.center_align_items{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-.banner-publicidad img{
+.center_align_items img{
     border-radius: 10px;
     position: relative;
     bottom: 10%;
 }
-.container-gray{
+.container_before_footer{
     background-color: #eee;
     width: 100%;
     padding: 2em 18em 3em 21em;
@@ -16,94 +18,62 @@
     font-family: 'Raleway', sans-serif;
     line-height: 150%;
 }
-.container-porque-reservar-vueling{
-    display: flex;
-    justify-content: center;
-}
-
-.titular-teinteresa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-}
 .pic{
     border-radius: 15px;
     width: 22%;
 }
-
-.titular-inspirate {
+.headline{
     display:flex;
     align-items: center;
     width: 86%;
     margin-left: 7em;
 }
-
-.linea_gris{
+.headline h3{
+    color: #eee;
+}
+.line{
     width: 45em;
     height: 4px;
     background-color: #eee;
 }
-.titular{
-    padding: 0px 10px;
-    color: #666;
-    font-weight: bold;
-    font-size: x-large;
-    width: 200px;
-}
-.titular-inspirate img{
+.headline img{
     padding: 0px 15px;
-}
-.titulo{
-    text-align: center;
 }
 .linea{
 width: 45em;
 height: 4px;
 background-color: #eee;
 }
-.container-select{
+.airports{
     text-align: center;
     width: 86%;
     margin: 0em 0em 2em 5em;
     color: #666;
     font-size: 2em;
-    
 }
-.titular-teinteresa img{
+.promotions>h3{
     padding-left: 1em;
 }
 .container-pictures {
     display: flex;
     justify-content: space-around;
 }
-
-.puntitos{
+.line_dotted{
+    background-image: image("img/puntitos.png");
     display: flex;
     justify-content: center;
 }
 .paragraph{
     padding-bottom: 4%;
 }
-.container-tres-imagenes-teinteresa{
-    display: flex;
-    justify-content: center;
-}
-.container-ventajas{
+.container-advantages{
     display: flex;
     text-align: center;
     width: 70%;
     padding: 0% 13%;
 }
-.container-ventajas span {
+.container-advantages span {
     font-weight: bold;
-}
-select {
-    border: none;
-    background: none;
-    font-weight: bold;
-    font: inherit;
 }
 .title {
     width: 100%;
