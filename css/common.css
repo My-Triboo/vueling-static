@@ -1,0 +1,12 @@
+.line {
+    width: 20%;
+    height: 0px;
+    margin: 15px 0 30px;
+    text-align: center;
+    border-bottom: 4px solid #f1f1f1;
+}
+.container-bg{
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
