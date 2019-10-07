@@ -343,6 +343,9 @@ li {
 .coche{
     width: 50%;
 }
+.coche1 {
+    padding-top: 28px;
+}
 
 
 .hotel {
@@ -360,6 +363,7 @@ li {
 }
 
 .coche3 {
+    color:gray;
     padding-top: 44px;
     padding-left: 170px;
 }
@@ -408,6 +412,7 @@ li {
 padding-left: right;
 }
 .alquiler {
+    padding-top: 414px;
     position: absolute;
     top: 20px;
     color: gray;
@@ -416,6 +421,7 @@ padding-left: right;
 
 }
 .reserva {
+    padding-top: 418px;
     position: absolute;
     top: 20px;
     color: gray;
