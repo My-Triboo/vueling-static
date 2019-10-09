@@ -1,12 +1,24 @@
 .line {
     width: 20%;
-    height: 0px;
-    margin: 15px 0 30px;
+    height: 15px;
+    margin: 10px 8px 20px;
     text-align: center;
-    border-bottom: 4px solid #f1f1f1;
+    border-bottom: 4px solid #eeeeee;
 }
-.container-bg{
+.container_bg {
     width: 100%;
     background-color: #eeeeee;
     border-radius: 10px;
+}
+.icono_info{
+background-image: url(../img/info.png);
+    background-repeat: no-repeat;
+    padding-left: 1em;
+    
+}
+.icono_bombilla{
+    background-image: url("../img/bombilla.png");
+    background-repeat:no-repeat;
+    padding-left: 1.5em;
+    padding-top: 0.2em; 
 }
