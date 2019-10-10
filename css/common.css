@@ -22,3 +22,6 @@ background-image: url(../img/info.png);
     padding-left: 1.5em;
     padding-top: 0.2em; 
 }
+.box_sizeimage {
+    width: 100%;
+}
