@@ -1,0 +1,23 @@
+$page_yellow: rgb(255, 204, 0);
+$page_white: white;
+$page_text_color:#4d4d4d;
+$plane_icon:url(/dist/img/avion.png);
+$hotel_icon:url(/dist/img/hotel.png);
+$car_icon:url(/dist/img/coche.png);
+$holiday_icon: url(/dist/img/cocheyhotel.png);
+$check_icon: url(/dist/img/check.png);
+$book_icon:url(/dist/img/poleas.png);
+@mixin back_ele ($back, $opa) {
+    background-color: $back;
+    opacity: $opa;
+}
+@mixin page-border ($color) {
+    border-color:$color;
+    border-style:solid; 
+}
+@mixin text_color ($color){
+    color:$color;
+}
+@mixin sm_icon ($url_icon) {
+    content:$url_icon;
+} 

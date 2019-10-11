@@ -1,0 +1,53 @@
+.back_yellow {
+    @include back_ele($page_yellow, 1)
+}
+.back_white {
+    @include back_ele($page_white, 0.6)
+}
+.border-bottom {
+    @include page_border($page_yellow)
+}
+.nav-link {
+    @include text_color($page_text_color)
+}
+.text_color {
+    @include text_color($page_text_color)
+}
+.vuelos_nav {
+    @include sm_icon($plane_icon);
+}
+.hotel_nav {
+    @include sm_icon($hotel_icon);
+}
+.car_nav {
+    @include sm_icon($car_icon);
+}
+.holiday_nav {
+    @include sm_icon($holiday_icon);
+}
+.check_nav {
+    @include sm_icon($check_icon);
+}
+.book_nav {
+    @include sm_icon($book_icon);
+}
+main {
+    form{
+        nav{
+            ul{
+                li{
+                    a{
+                        color:$page_text_color;
+                        button{
+                            @include back_ele($page_text_color, 1);
+                            @include page_border($page_text_color);
+                            width: 14%;
+                            max-height: 47px;
+                            margin-top:1%;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+}
